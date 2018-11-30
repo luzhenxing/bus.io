@@ -101,27 +101,21 @@
         <div v-show="!showPage" class="settings">
             <div class="weui_panel settings_container">
                 <div class="weui_cells_title">{{routeName}}</div>
-                <div class="weui_cells_title"><label for="firstStationName">起点</label></div>
                 <div class="weui_cells weui_cells_form">
                     <div class="weui_cell">
+                        <label class="weui_label" for="firstStationName">起点</label>
                         <input class="weui_input" id="firstStationName" type="text" placeholder="起点" v-model="firstStationName">
                     </div>
-                </div>
-                <div class="weui_cells_title"><label for="lastStationName">终点</label></div>
-                <div class="weui_cells weui_cells_form">
                     <div class="weui_cell">
+                        <label class="weui_label" for="lastStationName">终点</label>
                         <input class="weui_input" id="lastStationName" type="text" placeholder="终点" v-model="lastStationName">
                     </div>
-                </div>
-                <div class="weui_cells_title"><label for="carTime">日期</label></div>
-                <div class="weui_cells weui_cells_form">
                     <div class="weui_cell">
+                        <label class="weui_label" for="carTime">日期</label>
                         <input class="weui_input" id="carTime" type="text" placeholder="日期" v-model="carTime">
                     </div>
-                </div>
-                <div class="weui_cells_title"><label for="money">价格</label></div>
-                <div class="weui_cells weui_cells_form">
                     <div class="weui_cell">
+                        <label class="weui_label" for="money">价格</label>
                         <input class="weui_input" id="money" type="text" placeholder="价格" v-model="money">
                     </div>
                 </div>
@@ -293,7 +287,7 @@
                 </div>
             </div>
             <div class="pay_moneyDiv" style="position: fixed; padding-top: 0;">
-                <a id="btn_a" href="/rainbow/wechat/cht" class="weui_btn_warn pay_money_btn">继续乘车</a>
+                <a id="btn_a" href="javascript:;" class="weui_btn_warn pay_money_btn">继续乘车</a>
             </div>
         </div>
     </div>
